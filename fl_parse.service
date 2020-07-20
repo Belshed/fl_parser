@@ -1,0 +1,14 @@
+[Unit]
+Description=Telegram Bot
+After=network.target
+
+[Service]
+User=serge
+Group=serge
+
+WorkingDirectory=/home/serge/fl_parser/
+Environment="PYTHONPATH=/home/serge/fl_parser/"
+ExecStart=/home/serge/fl_parser/.venv/bin/python /home/serge/fl_parser/main.py
+
+[Install]
+WantedBy=multi-user.target
