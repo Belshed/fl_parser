@@ -13,7 +13,7 @@ chardet==3.0.4
 click==7.1.1
 colorama==0.4.3
 covid==2.1.4
-cryptography==2.8
+cryptography==3.2
 decorator==4.4.2
 distlib==0.3.0
 Django==3.0.5
