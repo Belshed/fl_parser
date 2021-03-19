@@ -16,7 +16,7 @@ covid==2.1.4
 cryptography==2.8
 decorator==4.4.2
 distlib==0.3.0
-Django==3.0.5
+Django==3.1.6
 filelock==3.0.12
 future==0.18.2
 googletrans==2.4.0
